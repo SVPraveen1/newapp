@@ -34,5 +34,6 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         return data
 
 
+
 class CustomTokenObtainPairView(TokenObtainPairView):
     serializer_class = CustomTokenObtainPairSerializer
